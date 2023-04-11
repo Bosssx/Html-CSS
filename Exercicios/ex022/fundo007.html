@@ -8,26 +8,25 @@
     <style>
         #container{
             background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
+            background-size: 100% 100%;/* faz com que a img de fundo ocupe 100% da div*/
             position: relative;
-            height: 500px;
+            height: 93vh; /* altura do elemento*/
             background-color: purple;
             padding: 10px;
 
         }
         #conteudo{
             background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
+            background-size: 100% 100%;/* faz com que a img de fundo ocupe 100% da div*/
             position: absolute;
-            height: 200px;
+            height: 200px;/* altura do elemento*/
             background-color: yellow;
-            width: 400px;
+            width: 400px; /* largura do elemento*/
 
-            left: 50%;
-            top: 50%;
-
-
-            transform: translate(-200px, -200px);/* serve para mudar a posição de caixas na pagina ou dentro de outras caixas.*/
+            left: 50%; /* bom para centralização horizontal*/
+            top: 50%;/* bom para centralização horizontal*/
+            
+            transform: translate(-50%, -50%);/* serve para mudar a posição de caixas na pagina ou dentro de outras caixas.*/
             
 
         }
